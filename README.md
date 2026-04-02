@@ -3,16 +3,17 @@ Objective
 
 The objective of this project is to analyze bank loan data to evaluate loan performance, identify risk factors, and generate actionable insights that support better lending decisions and business growth.
 
-🛠 Tools & Technologies Used
-
+## Tools & Technologies Used
 Microsoft Excel – Data Cleaning & Preprocessing
 SQL – Data Analysis & KPI Calculation
 Power BI – Data Visualization & Dashboard Creation
+
 ## Dataset
 The dataset contains information on loan applications, funded amounts, repayments, borrower details, and loan characteristics.
 Cleaned dataset is available in: /data/processed/
-### Key Performance Indicators (KPIs)
-1. Loan Application Analysis
+
+## Key Performance Indicators (KPIs)
+### 1. Loan Application Analysis
 Total Loan Applications
 Month-to-Date (MTD) Applications
 Month-over-Month (MoM) Growth Trends
@@ -37,12 +38,12 @@ Classification based on loan status
 Default rate and risk distribution
 
 ### Additional Analysis
-Monthly Trends by Issue Date – Identifying seasonality and trends
-Regional Analysis by State – Understanding geographic risk
-Loan Term Analysis – Distribution across loan durations
-Employment Length Analysis – Impact of job stability
-Loan Purpose Breakdown – Reasons for borrowing
-Home Ownership Analysis – Impact on loan performance
+* Monthly Trends by Issue Date – Identifying seasonality and trends
+* Regional Analysis by State – Understanding geographic risk
+* Loan Term Analysis – Distribution across loan durations
+* Employment Length Analysis – Impact of job stability
+* Loan Purpose Breakdown – Reasons for borrowing
+* Home Ownership Analysis – Impact on loan performance
 
 ## Key Insights
 1. Loan Purpose Risk
