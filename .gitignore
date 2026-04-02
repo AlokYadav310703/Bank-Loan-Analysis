@@ -1,0 +1,25 @@
+# Power BI temp files
+*.pbix.autosave
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Excel temp files
+~$*.xlsx
+
+# Logs
+*.log
+
+# Large data files (optional)
+data/raw/
+
+# Python (only if used)
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
