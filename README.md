@@ -12,6 +12,12 @@ Power BI – Data Visualization & Dashboard Creation
 The dataset contains information on loan applications, funded amounts, repayments, borrower details, and loan characteristics.
 Cleaned dataset is available in: /data/processed/
 
+## Project Structure
+data/processed/: The cleaned dataset used for final analysis.
+sql/Bank_Loan_Analysis.sql: Contains all SQL logic for KPI calculations (MTD, MoM, Good/Bad Loan splits).
+dashboard/: Power BI file (Bank_Loan.pbix).
+presentation/Bank_Loan_presentation: PPT containing complete insi
+
 ## Key Performance Indicators (KPIs)
 ### 1. Loan Application Analysis
 Total Loan Applications
@@ -46,7 +52,7 @@ Default rate and risk distribution
 * Home Ownership Analysis – Impact on loan performance
 
 ## Key Insights
-1. Loan Purpose Risk
+### 1. Loan Purpose Risk
 Small Business loans contribute the highest share of bad loans (~25%)
 Renewable Energy loans account for ~18%
 Educational loans account for ~15%
@@ -64,10 +70,14 @@ Regional economic and demographic factors significantly influence repayment beha
 Took home loans
 Have home ownership status = RENT
 Indicates financial instability and lack of asset backing
-4. Loan Term Risk
+
+### 4. Loan Term Risk
 60-month loans → ~22% bad loan rate
 36-month loans → ~10% bad loan rate
-👉 Longer loan tenure increases default probability
-📊 Dashboard Preview
+Longer loan tenure increases default probability
+Dashboard Preview
 
-(Add Power BI dashboard screenshots in /images/ folder)
+## How to Run the Analysis
+Database Setup: Import the dataset from /data/processed/financial_loan_processed.xlsx into your SQL environment.
+Execute Queries: Run the scripts in analysis_queries.sql to generate the KPI tables.
+Visualization: Open the Power BI file in the /dashboard/ folder and refresh the data source to view the interactive reports.
