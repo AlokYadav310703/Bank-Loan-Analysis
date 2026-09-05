@@ -410,7 +410,7 @@ Bank-Loan-Analysis/
 - **Data-driven underwriting improves profitability:** Combining multiple risk factors (geography, purpose, DTI, employment, term) enables precision targeting of high-quality borrowers
 
 ---
-<img src="images/Dashboard1.png" alt="Dashboard" width="700">
-<img src="images/Dashboard2.png" alt="Dashboard" width="700">
-<img src="images/Dashboard3.png" alt="Dashboard" width="700">
+<img src="Screenshot 2026-03-31 232842.png" alt="Dashboard" width="700">
+<img src="Screenshot 2026-03-31 232914.png" alt="Dashboard" width="700">
+<img src="Screenshot 2026-03-31 233345.png" alt="Dashboard" width="700">
 
