@@ -305,32 +305,23 @@ Banks face significant challenges in managing loan portfolios and minimizing cre
 Bank-Loan-Analysis/
 
 ├── data/
-│   ├── raw/
-│   │   └── bank_loan_raw.xlsx
-│   └── processed/
-│       └── financial_loan_processed.xlsx
+│   └── financial_loan_processed.xlsx
 │
 ├── sql/
-│   ├── Bank_Loan_Analysis.sql
-│   ├── KPI_Calculations.sql
-│   ├── Good_Bad_Loan_Classification.sql
-│   └── Risk_Segmentation_Analysis.sql
+│   └── Bank_Loan_Analysis.sql
 │
-├── dashboard/
-│   ├── Bank_Loan.pbix
-│   ├── Executive_Dashboard.pbix
-│   └── Risk_Analytics.pbix
+├── powerbi/
+│   └── Bank_Loan.pbix
 │
-├── analysis/
-│   ├── Geographic_Risk_Analysis.xlsx
-│   ├── Loan_Purpose_Analysis.xlsx
-│   └── Borrower_Profile_Analysis.xlsx
+├── images/
+│   ├── Dashboard1.png
+│   ├── Dashboard2.png
+│   └── Dashboard3.png
 │
 ├── presentation/
-│   └── Bank_Loan_Presentation.pptx
+│   └── Bank_Loan.pptx
 │
 ├── README.md (this file)
-├── METHODOLOGY.md
 └── requirements.txt
 ```
 
@@ -397,34 +388,7 @@ Bank-Loan-Analysis/
 - Risk-return optimization strategies
 - Actionable recommendations with business impact quantification
 - Implementation roadmap development
-
----
-
-## How to Use This Analysis
-
-### For Stakeholders:
-1. Open `presentation/Bank_Loan_Presentation.pptx` for executive summary
-2. Review `README.md` for key findings and recommendations
-3. Access Power BI dashboards for interactive exploration
-
-### For Risk Management Teams:
-1. Use Dashboard 3 & 5 for portfolio risk monitoring
-2. Reference SQL queries in `/sql/` folder for detailed analysis
-3. Leverage geographic and purpose-based segmentation for underwriting decisions
-4. Monitor DTI distribution dashboard for portfolio composition
-
-### For Operations & Collections:
-1. Use Dashboard 2 for application and funding pipeline tracking
-2. Monitor delinquency trends in Dashboard 3
-3. Segment collections efforts by risk tier (Dashboard 4)
-4. Track regional performance for branch allocation
-
-### For Further Analysis:
-1. SQL queries in `/sql/` folder are reusable and modifiable
-2. Power BI data model supports custom calculations
-3. Excel analysis files provide granular segment breakdowns
-4. Methodology documentation available in `METHODOLOGY.md`
-
+  
 ---
 
 ## Key Learnings & Takeaways
@@ -446,6 +410,7 @@ Bank-Loan-Analysis/
 - **Data-driven underwriting improves profitability:** Combining multiple risk factors (geography, purpose, DTI, employment, term) enables precision targeting of high-quality borrowers
 
 ---
+<img src="images/Dashboard1.png" alt="Dashboard" width="700">
+<img src="images/Dashboard2.png" alt="Dashboard" width="700">
+<img src="images/Dashboard3.png" alt="Dashboard" width="700">
 
-**Last Updated:** September 2026
-**Status:** Production Ready - Ready for Strategic Implementation
